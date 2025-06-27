@@ -68,7 +68,9 @@ const main = () => {
   addSubmitListener();
 };
 
-main();
+// main();
+
+document.addEventListener("DOMContentLoaded", main);
 
 // Export functions for testing
 export {
